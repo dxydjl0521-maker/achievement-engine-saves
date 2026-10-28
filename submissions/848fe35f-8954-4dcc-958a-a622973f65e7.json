@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "848fe35f-8954-4dcc-958a-a622973f65e7",
+  "resourceId": "2b6165ab-0e5c-4ed9-a74c-e8a1f69eae61",
+  "versionId": "215f2d6b-5e40-4a89-8433-87a226718232",
+  "packageSha256": "5912bbb3bf70dc6bca61aa05de8cc903fd8c283baf393cfdc63e332b64fd88c1",
+  "bytes": 81806,
+  "manifest": {
+    "format": "aesave",
+    "schemaVersion": 1,
+    "resourceId": null,
+    "game": {
+      "platform": "steam",
+      "platformGameId": "1318690"
+    },
+    "save": {
+      "title": "shapez · 去月球",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "capturedAtUtc": "2026-10-27T11:25:37.082Z",
+      "contentFingerprint": "5e612104270064ee6a9b7cae1da404482c11c849971d4bedd826b10bc642f681"
+    },
+    "compatibility": {
+      "gameBuild": null,
+      "dlcIds": [],
+      "saveSlot": null,
+      "accountPortability": "unknown"
+    },
+    "achievements": [
+      {
+        "platformAchievementId": "produce_rocket",
+        "relation": "candidate"
+      }
+    ],
+    "roots": [
+      {
+        "id": "root-0",
+        "label": "存档目录 1"
+      }
+    ],
+    "files": [
+      {
+        "root": "root-0",
+        "path": "app_settings.bin",
+        "size": 906,
+        "sha256": "7e41f4aa655130e9edb0c2dd70451bc2835ae866233ef7230016ee3314ddd186"
+      },
+      {
+        "root": "root-0",
+        "path": "app_settings.bin.backup",
+        "size": 910,
+        "sha256": "e88b4d91cc60761b3fca857c9abe0f3a6c1daf390ccd37a4e2ac7d7709b18284"
+      },
+      {
+        "root": "root-0",
+        "path": "savegame-230d871477a2da501bea74b058ab2b56c4833d91.bin",
+        "size": 34046,
+        "sha256": "877b804114d3ab6e14a1dd3588aafb69798904057ba32744d101169480ade94e"
+      },
+      {
+        "root": "root-0",
+        "path": "savegame-230d871477a2da501bea74b058ab2b56c4833d91.bin.backup",
+        "size": 33918,
+        "sha256": "860556c3f845753233ca32a03b2013e6399f2fe85bc64cd4086e4ecd53adeb85"
+      },
+      {
+        "root": "root-0",
+        "path": "savegame-db93384cfe4fd6d9f25679dddc84d6e8be231695.bin.backup",
+        "size": 6327,
+        "sha256": "d8579fda643645619df211d5191a484f3a08df3dd3c7d39ca95716ecb42b5b46"
+      },
+      {
+        "root": "root-0",
+        "path": "savegames.bin",
+        "size": 259,
+        "sha256": "ed98c454963234271205c8ee7937d2de57ca109d6c8ec7e270cca9b305bf2974"
+      },
+      {
+        "root": "root-0",
+        "path": "savegames.bin.backup",
+        "size": 259,
+        "sha256": "ed98c454963234271205c8ee7937d2de57ca109d6c8ec7e270cca9b305bf2974"
+      },
+      {
+        "root": "root-0",
+        "path": "shapez_abt_bsl2.bin",
+        "size": 1,
+        "sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+      },
+      {
+        "root": "root-0",
+        "path": "shapez_token_123.bin",
+        "size": 40,
+        "sha256": "b1061c4daedd75858d6fd99d2b898ed6d35ff74143e347e38528f968647c7187"
+      },
+      {
+        "root": "root-0",
+        "path": "steam_autocloud.vdf",
+        "size": 53,
+        "sha256": "be4c4706035054ad760a3d214fa6fe826f80ed90654c5fb541515c4de166a6ac"
+      }
+    ]
+  },
+  "description": "关联成就：去月球。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+  "contributor": {
+    "login": "dxydjl0521-maker",
+    "id": 284279708,
+    "node_id": "U_kgDOEPHDnA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/284279708?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dxydjl0521-maker",
+    "html_url": "https://github.com/dxydjl0521-maker",
+    "followers_url": "https://api.github.com/users/dxydjl0521-maker/followers",
+    "following_url": "https://api.github.com/users/dxydjl0521-maker/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dxydjl0521-maker/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dxydjl0521-maker/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dxydjl0521-maker/subscriptions",
+    "organizations_url": "https://api.github.com/users/dxydjl0521-maker/orgs",
+    "repos_url": "https://api.github.com/users/dxydjl0521-maker/repos",
+    "events_url": "https://api.github.com/users/dxydjl0521-maker/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dxydjl0521-maker/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false,
+    "name": "DXYDJL",
+    "company": null,
+    "blog": "",
+    "location": null,
+    "email": null,
+    "hireable": null,
+    "bio": null,
+    "twitter_username": null,
+    "notification_email": null,
+    "public_repos": 3,
+    "public_gists": 0,
+    "followers": 2,
+    "following": 0,
+    "created_at": "2026-05-13T10:13:18Z",
+    "updated_at": "2026-10-21T08:22:55Z"
+  },
+  "submittedAt": "2026-10-28T08:46:39.259Z",
+  "agreement": "community-save-public-fork-v1",
+  "package": {
+    "repository": "dxydjl0521-maker/achievement-engine-saves",
+    "releaseId": 426430558,
+    "assetId": 684381413,
+    "tag": "submission-848fe35f-8954-4dcc-958a-a622973f65e7",
+    "name": "848fe35f-8954-4dcc-958a-a622973f65e7.aesave"
+  }
+}
