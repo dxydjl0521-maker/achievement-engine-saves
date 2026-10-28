@@ -12,11 +12,19 @@ on:
         description: Exact reviewed head SHA
         required: true
         type: string
+      owner_draft:
+        description: Read an official repository owner's draft asset
+        required: false
+        default: false
+        type: boolean
 permissions:
   contents: read
   pull-requests: read
 jobs:
-  save-validation:
+  public-source:
+    if: >-
+      (github.event_name == 'workflow_dispatch' && !inputs.owner_draft) ||
+      (github.event_name == 'pull_request' && !(github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.user.id == github.event.repository.owner.id))
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -40,3 +48,52 @@ jobs:
           PR_HEAD_SHA: ${{ github.event.pull_request.head.sha || inputs.pr_head_sha }}
           AE_SAVE_MODE: validate
         run: node lib/save-workflow.mjs
+  owner-draft-source:
+    # Draft releases require push access. Fork submissions never reach this job;
+    # checkout remains pinned to the trusted base, and validate makes no writes.
+    if: >-
+      (github.event_name == 'workflow_dispatch' && inputs.owner_draft) ||
+      (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.user.id == github.event.repository.owner.id)
+    permissions:
+      contents: write
+      pull-requests: read
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha || github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install scanner and signatures
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clamav
+          sudo systemctl stop clamav-freshclam || true
+          sudo freshclam
+      - name: Validate owner draft without publishing it
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha || inputs.pr_head_sha }}
+          AE_SAVE_MODE: validate
+          AE_SAVE_OWNER_DRAFT: 'true'
+        run: node lib/save-workflow.mjs
+  save-validation:
+    needs: [public-source, owner-draft-source]
+    if: always()
+    permissions: {}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require exactly one successful validation
+        env:
+          PUBLIC_RESULT: ${{ needs.public-source.result }}
+          OWNER_RESULT: ${{ needs.owner-draft-source.result }}
+        run: |
+          if [[ "$PUBLIC_RESULT" == success && "$OWNER_RESULT" == skipped ]] || [[ "$OWNER_RESULT" == success && "$PUBLIC_RESULT" == skipped ]]; then
+            exit 0
+          fi
+          echo 'Save validation did not pass.'
+          exit 1

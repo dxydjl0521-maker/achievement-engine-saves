@@ -8,6 +8,10 @@
 
 校验只读运行基础分支的 `lib/save-workflow.mjs`，不执行投稿分支代码。扫描器、病毒库或任何校验失败均不得发布。合并后发布工作流重新验证身份、摘要、扫描和审批，再发布资产并原子更新目录。失败可用 workflow_dispatch 提供同一 PR 号和精确 head SHA 重试。未知存档格式、账号绑定、版本、DLC 和槽位仍须人工核查。
 
+官方仓库所有者向自己的仓库投稿时，源 Release 保持 **draft**，不把待审文件公开为正式资源。GitHub 读取草稿需要 push 权限，因此校验分为公开 fork 的只读任务和仅限“源仓库等于官方仓库且 PR 作者 numeric ID 等于仓库所有者”的草稿任务；后者的 contents: write 仅用于读取草稿，validate 模式拒绝所有非 GET 请求。两者均固定检出基础分支代码，最终 `save-validation` 必须恰有一个任务成功，另一个跳过。独立审批、扫描和正式发布门禁不变。
+
+手动重跑所有者的草稿时，workflow_dispatch 还需将 `owner_draft` 设为 true，并提供精确 PR head SHA。脚本再次验证来源和作者，不能用此选项读取普通 fork 的私有资产。直接重跑修复前的旧 run 会继续使用旧工作流；需要从最新 main 手动启动，或重新打开未合并 PR 触发新的检查。
+
 客户端撤回会关闭未合并 PR、删除个人待审 Release；已发布资源通过结构化 Issue 请求撤回。工作流核对 Issue 作者 numeric ID 与贡献者 ID 后移除正式资产并保留目录标记。管理员可提交 `action: delist`。举报也是公开 Issue，不得附带隐私内容。已经下载的副本和公共缓存无法撤销。
 
 ```json
