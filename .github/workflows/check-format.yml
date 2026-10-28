@@ -1,0 +1,21 @@
+name: Check save repository format
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check bundled format runtime without user data
+        env:
+          AE_SAVE_MODE: self-test
+        run: node lib/save-workflow.mjs

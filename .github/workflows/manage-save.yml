@@ -1,0 +1,32 @@
+name: Process save withdrawal
+on:
+  issues:
+    types: [opened, reopened]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Withdrawal or delisting issue
+        required: true
+        type: number
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: save-repository-publication
+  cancel-in-progress: false
+jobs:
+  manage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply an identity-authorized withdrawal
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number || inputs.issue_number }}
+          AE_SAVE_MODE: manage
+        run: node lib/save-workflow.mjs
