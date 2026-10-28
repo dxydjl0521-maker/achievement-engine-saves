@@ -2,6 +2,7 @@ name: Publish reviewed save
 on:
   pull_request_target:
     types: [closed]
+    paths: ['submissions/*.json']
   workflow_dispatch:
     inputs:
       pr_number:
