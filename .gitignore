@@ -1,0 +1,6 @@
+*.aesave
+*.pem
+.env*
+quarantine/
+state/
+node_modules/
