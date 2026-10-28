@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "ee16bb1c-c995-4747-9d28-5ba67bf0878d",
+  "gameKey": "steam:1318690",
+  "currentVersionId": "e55c1699-abe6-4b41-9693-bcc876aa4f11",
+  "versions": [
+    {
+      "id": "ee16bb1c-c995-4747-9d28-5ba67bf0878d",
+      "versionId": "e55c1699-abe6-4b41-9693-bcc876aa4f11",
+      "gameKey": "steam:1318690",
+      "title": "shapez · 没完没了？",
+      "description": "关联成就：没完没了？。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "achievements": [
+        "level_100"
+      ],
+      "compatibility": {
+        "gameBuild": null,
+        "dlcIds": [],
+        "saveSlot": null,
+        "accountPortability": "unknown"
+      },
+      "contributor": {
+        "id": 284279708,
+        "login": "dxydjl0521-maker"
+      },
+      "verification": "file_verified",
+      "achievementEvidence": {},
+      "packageSha256": "f720e19598f49d29d36f591ea088a3aafdb028592f1fa5a22d681d9f8735d177",
+      "contentFingerprint": "5e8151e5d55a7a6750092c83db75044a93644cbe70a8abaa81ec690c2644d0cd",
+      "bytes": 81816,
+      "fileCount": 10,
+      "publishedAt": "2026-10-28T16:15:19.000Z",
+      "repository": "dxydjl0521-maker/achievement-engine-saves",
+      "assetId": 685571956,
+      "tag": "save-ee16bb1c-c995-4747-9d28-5ba67bf0878d-e55c1699-abe6-4b41-9693-bcc876aa4f11",
+      "assetName": "ee16bb1c-c995-4747-9d28-5ba67bf0878d-e55c1699-abe6-4b41-9693-bcc876aa4f11.aesave",
+      "status": "published"
+    }
+  ]
+}
