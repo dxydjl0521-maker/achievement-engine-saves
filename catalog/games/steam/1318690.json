@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "gameKey": "steam:1318690",
+  "resources": [
+    {
+      "id": "efa5dce6-c5d8-4fa7-8acf-0bce660dfeb9",
+      "versionId": "4a5c49c7-fa4f-4bcb-bd90-f1f626632f6e",
+      "gameKey": "steam:1318690",
+      "title": "shapez · 去月球",
+      "description": "关联成就：去月球。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "achievements": [
+        "produce_rocket"
+      ],
+      "compatibility": {
+        "gameBuild": null,
+        "dlcIds": [],
+        "saveSlot": null,
+        "accountPortability": "unknown"
+      },
+      "contributor": {
+        "id": 284279708,
+        "login": "dxydjl0521-maker"
+      },
+      "verification": "file_verified",
+      "achievementEvidence": {},
+      "packageSha256": "5912bbb3bf70dc6bca61aa05de8cc903fd8c283baf393cfdc63e332b64fd88c1",
+      "contentFingerprint": "5e612104270064ee6a9b7cae1da404482c11c849971d4bedd826b10bc642f681",
+      "bytes": 81806,
+      "fileCount": 10,
+      "publishedAt": "2026-10-28T15:23:19.000Z",
+      "repository": "dxydjl0521-maker/achievement-engine-saves",
+      "assetId": 685515831,
+      "tag": "save-efa5dce6-c5d8-4fa7-8acf-0bce660dfeb9-4a5c49c7-fa4f-4bcb-bd90-f1f626632f6e",
+      "assetName": "efa5dce6-c5d8-4fa7-8acf-0bce660dfeb9-4a5c49c7-fa4f-4bcb-bd90-f1f626632f6e.aesave",
+      "status": "published"
+    }
+  ]
+}
