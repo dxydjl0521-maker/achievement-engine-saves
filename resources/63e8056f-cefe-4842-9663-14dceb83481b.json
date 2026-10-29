@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "63e8056f-cefe-4842-9663-14dceb83481b",
+  "gameKey": "steam:1318690",
+  "currentVersionId": "d40cc2c7-1a28-48a9-8060-9eee0282caad",
+  "versions": [
+    {
+      "id": "63e8056f-cefe-4842-9663-14dceb83481b",
+      "versionId": "d40cc2c7-1a28-48a9-8060-9eee0282caad",
+      "gameKey": "steam:1318690",
+      "title": "shapez · 没完没了？",
+      "description": "关联成就：没完没了？。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "achievements": [
+        "level_100"
+      ],
+      "compatibility": {
+        "gameBuild": null,
+        "dlcIds": [],
+        "saveSlot": null,
+        "accountPortability": "unknown"
+      },
+      "contributor": {
+        "id": 284279708,
+        "login": "dxydjl0521-maker"
+      },
+      "verification": "file_verified",
+      "achievementEvidence": {},
+      "achievementTiming": [
+        {
+          "achievementId": "level_100",
+          "capturedAtUtc": "2026-10-27T11:21:11.403Z",
+          "unlockedAtUtc": "2026-10-27T11:21:24.000Z",
+          "unlockTimeSource": "platform",
+          "offsetMs": 12597
+        }
+      ],
+      "packageSha256": "da6d66c724b80bb22d2a2c303d63772983ffefddd7ca61adf726e12b799952f2",
+      "contentFingerprint": "5e8151e5d55a7a6750092c83db75044a93644cbe70a8abaa81ec690c2644d0cd",
+      "bytes": 82001,
+      "fileCount": 10,
+      "publishedAt": "2026-10-29T07:25:36.000Z",
+      "repository": "dxydjl0521-maker/achievement-engine-saves",
+      "assetId": 687726131,
+      "tag": "save-63e8056f-cefe-4842-9663-14dceb83481b-d40cc2c7-1a28-48a9-8060-9eee0282caad",
+      "assetName": "63e8056f-cefe-4842-9663-14dceb83481b-d40cc2c7-1a28-48a9-8060-9eee0282caad.aesave",
+      "status": "published"
+    }
+  ]
+}
