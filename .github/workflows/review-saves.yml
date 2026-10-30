@@ -19,7 +19,8 @@ permissions:
   actions: read
 concurrency:
   group: save-repository-publication
-  cancel-in-progress: false
+  # Keep every explicit request queued while serializing shared catalog writes.
+  queue: max
 jobs:
   review:
     if: >-

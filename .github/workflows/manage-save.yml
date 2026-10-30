@@ -13,7 +13,8 @@ permissions:
   issues: write
 concurrency:
   group: save-repository-publication
-  cancel-in-progress: false
+  # Keep every explicit request queued while serializing shared catalog writes.
+  queue: max
 jobs:
   manage:
     runs-on: ubuntu-latest
