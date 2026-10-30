@@ -16,6 +16,7 @@ on:
 permissions:
   contents: write
   pull-requests: read
+  actions: read
 concurrency:
   group: save-repository-publication
   cancel-in-progress: false
@@ -44,4 +45,5 @@ jobs:
           PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
           PR_HEAD_SHA: ${{ github.event.pull_request.head.sha || inputs.pr_head_sha }}
           AE_SAVE_MODE: publish
+          AE_SAVE_AUTO_REVIEW: ${{ vars.AE_SAVE_AUTO_REVIEW }}
         run: node lib/save-workflow.mjs

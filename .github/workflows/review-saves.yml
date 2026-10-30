@@ -1,0 +1,51 @@
+name: Review save submissions
+on:
+  workflow_run:
+    workflows: ['Validate save submission']
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      targets:
+        description: 'Selected revisions: [{"number":123,"headSha":"40 hex characters"}] (max 25)'
+        required: true
+        type: string
+      note:
+        description: 'Public review note, at least 12 characters'
+        required: true
+        type: string
+permissions:
+  contents: write
+  pull-requests: write
+  actions: read
+concurrency:
+  group: save-repository-publication
+  cancel-in-progress: false
+jobs:
+  review:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (vars.AE_SAVE_AUTO_REVIEW == 'true' && github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      # workflow_run carries a write token: execute only the official default
+      # branch. Never download an upstream artifact or check out a PR head.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install scanner and signatures
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clamav
+          sudo systemctl stop clamav-freshclam || true
+          sudo freshclam
+      - name: Review selected revisions and publish successful merges
+        env:
+          GH_TOKEN: ${{ github.token }}
+          AE_SAVE_MODE: review
+          AE_SAVE_AUTO_REVIEW: ${{ vars.AE_SAVE_AUTO_REVIEW }}
+        run: node lib/save-workflow.mjs

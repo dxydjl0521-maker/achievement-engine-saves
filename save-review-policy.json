@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "automaticCaptureVersion": 1,
+  "batchReviewWorkflow": "review-saves.yml"
+}
