@@ -284,6 +284,49 @@
       "tag": "save-3f2638ca-7c6e-41fe-b4eb-8ce183662ae0-62f96579-891a-4cf1-8ac5-9df3e5f92312",
       "assetName": "3f2638ca-7c6e-41fe-b4eb-8ce183662ae0-62f96579-891a-4cf1-8ac5-9df3e5f92312.aesave",
       "status": "published"
+    },
+    {
+      "id": "7b6677d3-0648-4831-a4d7-4642e06df569",
+      "versionId": "9dfb3e2e-0087-42c2-b56b-4e26543eeedd",
+      "gameKey": "steam:1318690",
+      "title": "shapez · 竞速通关大师",
+      "description": "关联成就：竞速通关大师。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "achievements": [
+        "speedrun_bp_30"
+      ],
+      "compatibility": {
+        "gameBuild": null,
+        "dlcIds": [],
+        "saveSlot": null,
+        "accountPortability": "unknown"
+      },
+      "contributor": {
+        "id": 284279708,
+        "login": "dxydjl0521-maker"
+      },
+      "verification": "file_verified",
+      "achievementEvidence": {},
+      "achievementTiming": [
+        {
+          "achievementId": "speedrun_bp_30",
+          "capturedAtUtc": "2026-10-27T11:23:47.031Z",
+          "unlockedAtUtc": "2026-10-27T11:23:54.000Z",
+          "unlockTimeSource": "platform",
+          "offsetMs": 6969
+        }
+      ],
+      "packageSha256": "bc862ccbbb8c472af2d171b4abad1417c2b353cc3249893346db310af6c80153",
+      "contentFingerprint": "44283fee8d8ed87dd960cff63342d99c568a2f10756574436f3fc0e25f7143b7",
+      "bytes": 82006,
+      "fileCount": 10,
+      "publishedAt": "2026-10-30T04:50:53.000Z",
+      "repository": "dxydjl0521-maker/achievement-engine-saves",
+      "assetId": 690968902,
+      "tag": "save-7b6677d3-0648-4831-a4d7-4642e06df569-9dfb3e2e-0087-42c2-b56b-4e26543eeedd",
+      "assetName": "7b6677d3-0648-4831-a4d7-4642e06df569-9dfb3e2e-0087-42c2-b56b-4e26543eeedd.aesave",
+      "status": "published"
     }
   ]
 }
