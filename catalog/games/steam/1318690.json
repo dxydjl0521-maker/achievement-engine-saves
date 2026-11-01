@@ -370,6 +370,65 @@
       "tag": "save-3f2638ca-7c6e-41fe-b4eb-8ce183662ae0-62f96579-891a-4cf1-8ac5-9df3e5f92312",
       "assetName": "3f2638ca-7c6e-41fe-b4eb-8ce183662ae0-62f96579-891a-4cf1-8ac5-9df3e5f92312.aesave",
       "status": "withdrawn"
+    },
+    {
+      "id": "00ea7ed7-16dc-4622-9bf0-d827f14f2064",
+      "versionId": "a2a6ce12-4825-47fd-844a-bc73b08248c6",
+      "gameKey": "steam:1318690",
+      "title": "shapez · 去月球、竞速通关大师、没完没了？",
+      "description": "关联成就：去月球、竞速通关大师、没完没了？。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "achievements": [
+        "produce_rocket",
+        "speedrun_bp_30",
+        "level_100"
+      ],
+      "compatibility": {
+        "gameBuild": null,
+        "dlcIds": [],
+        "saveSlot": null,
+        "accountPortability": "unknown"
+      },
+      "contributor": {
+        "id": 284279708,
+        "login": "dxydjl0521-maker"
+      },
+      "verification": "file_verified",
+      "achievementEvidence": {},
+      "achievementTiming": [
+        {
+          "achievementId": "produce_rocket",
+          "capturedAtUtc": "2026-10-27T11:21:11.403Z",
+          "unlockedAtUtc": "2026-10-27T11:26:17.000Z",
+          "unlockTimeSource": "platform",
+          "offsetMs": 305597
+        },
+        {
+          "achievementId": "speedrun_bp_30",
+          "capturedAtUtc": "2026-10-27T11:21:11.403Z",
+          "unlockedAtUtc": "2026-10-27T11:23:54.000Z",
+          "unlockTimeSource": "platform",
+          "offsetMs": 162597
+        },
+        {
+          "achievementId": "level_100",
+          "capturedAtUtc": "2026-10-27T11:21:11.403Z",
+          "unlockedAtUtc": "2026-10-27T11:21:24.000Z",
+          "unlockTimeSource": "platform",
+          "offsetMs": 12597
+        }
+      ],
+      "packageSha256": "ffadd727ce5d67e6c8841cdb6d8ba336b3d685a414cc565f3ddb7d2a0c857aab",
+      "contentFingerprint": "5e8151e5d55a7a6750092c83db75044a93644cbe70a8abaa81ec690c2644d0cd",
+      "bytes": 82504,
+      "fileCount": 10,
+      "publishedAt": "2026-11-01T05:58:17.000Z",
+      "repository": "dxydjl0521-maker/achievement-engine-saves",
+      "assetId": 697473863,
+      "tag": "save-00ea7ed7-16dc-4622-9bf0-d827f14f2064-a2a6ce12-4825-47fd-844a-bc73b08248c6",
+      "assetName": "00ea7ed7-16dc-4622-9bf0-d827f14f2064-a2a6ce12-4825-47fd-844a-bc73b08248c6.aesave",
+      "status": "published"
     }
   ]
 }
