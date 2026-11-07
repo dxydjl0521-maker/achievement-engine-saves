@@ -302,6 +302,49 @@
       "tag": "save-2d2dcdb9-29f2-45a3-9f45-b8563cb44a8c-2c66a8ab-9eab-41af-a91d-533e05ddcadb",
       "assetName": "2d2dcdb9-29f2-45a3-9f45-b8563cb44a8c-2c66a8ab-9eab-41af-a91d-533e05ddcadb.aesave",
       "status": "published"
+    },
+    {
+      "id": "082d372a-aa85-4d44-bf92-2e640aec8a31",
+      "versionId": "a9ca0b3a-0cfa-497d-98e8-80c17661f627",
+      "gameKey": "steam:1659420",
+      "title": "UNCHARTED™: Legacy of Thieves Collection · 马可·波罗回来了！",
+      "description": "关联成就：马可·波罗回来了！。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "achievements": [
+        "TROPHY_NAME_MARCO_POLO"
+      ],
+      "compatibility": {
+        "gameBuild": null,
+        "dlcIds": [],
+        "saveSlot": null,
+        "accountPortability": "unknown"
+      },
+      "contributor": {
+        "id": 284279708,
+        "login": "dxydjl0521-maker"
+      },
+      "verification": "file_verified",
+      "achievementEvidence": {},
+      "achievementTiming": [
+        {
+          "achievementId": "TROPHY_NAME_MARCO_POLO",
+          "capturedAtUtc": "2026-11-05T16:50:43.044Z",
+          "unlockedAtUtc": "2026-11-05T17:02:05.000Z",
+          "unlockTimeSource": "platform",
+          "offsetMs": 681956
+        }
+      ],
+      "packageSha256": "8d1d5d7ef119e2fe02b197546a03d0a1274f20f6b726c25e78d2713e501ae774",
+      "contentFingerprint": "f974f036c07d1624b38714b91721c42e30da3dfdc0d037e993b4cc3517a9409b",
+      "bytes": 4554415,
+      "fileCount": 21,
+      "publishedAt": "2026-11-07T14:27:35.000Z",
+      "repository": "dxydjl0521-maker/achievement-engine-saves",
+      "assetId": 720928980,
+      "tag": "save-082d372a-aa85-4d44-bf92-2e640aec8a31-a9ca0b3a-0cfa-497d-98e8-80c17661f627",
+      "assetName": "082d372a-aa85-4d44-bf92-2e640aec8a31-a9ca0b3a-0cfa-497d-98e8-80c17661f627.aesave",
+      "status": "published"
     }
   ]
 }
