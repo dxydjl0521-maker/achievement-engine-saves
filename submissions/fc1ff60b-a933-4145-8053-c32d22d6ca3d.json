@@ -1,0 +1,182 @@
+{
+  "automaticCapture": {
+    "schemaVersion": 1,
+    "captureTrigger": "file-change",
+    "packageSha256": "9742cbc1821c57b9e70ba09da9723e5c88c75a992360a2b45c5a5b7d098071ab",
+    "contentFingerprint": "423391330006a51bea51108959d5b4224f3a3fd390d67b41d678392a92173827",
+    "capturedAtUtc": "2026-11-04T15:05:17.829Z"
+  },
+  "schemaVersion": 1,
+  "id": "fc1ff60b-a933-4145-8053-c32d22d6ca3d",
+  "resourceId": "12f35257-a7bd-48fc-b783-5c4975d74a08",
+  "versionId": "923bc23c-3ce8-4ae0-8f3f-eaad0336deea",
+  "packageSha256": "9742cbc1821c57b9e70ba09da9723e5c88c75a992360a2b45c5a5b7d098071ab",
+  "bytes": 3676444,
+  "manifest": {
+    "format": "aesave",
+    "schemaVersion": 1,
+    "resourceId": null,
+    "game": {
+      "platform": "steam",
+      "platformGameId": "1659420"
+    },
+    "save": {
+      "title": "UNCHARTED™: Legacy of Thieves Collection · 记笔记",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "capturedAtUtc": "2026-11-04T15:05:17.829Z",
+      "contentFingerprint": "423391330006a51bea51108959d5b4224f3a3fd390d67b41d678392a92173827"
+    },
+    "compatibility": {
+      "gameBuild": null,
+      "dlcIds": [],
+      "saveSlot": null,
+      "accountPortability": "unknown"
+    },
+    "achievements": [
+      {
+        "platformAchievementId": "TROPHY_NAME_JOURNAL_NOTE_1",
+        "relation": "candidate"
+      }
+    ],
+    "achievementTiming": [
+      {
+        "achievementId": "TROPHY_NAME_JOURNAL_NOTE_1",
+        "capturedAtUtc": "2026-11-04T15:05:17.829Z",
+        "unlockedAtUtc": "2026-11-04T15:05:44.000Z",
+        "unlockTimeSource": "platform",
+        "offsetMs": 26171
+      }
+    ],
+    "roots": [
+      {
+        "id": "root-0",
+        "label": "存档目录 1"
+      }
+    ],
+    "files": [
+      {
+        "root": "root-0",
+        "path": "sharedsettings.cfg",
+        "size": 53,
+        "sha256": "1f92e1e78314a37ea9bc0eccfb24b81ec802c3b4702100d7530fc86a189e5daa"
+      },
+      {
+        "root": "root-0",
+        "path": "steam_autocloud.vdf",
+        "size": 53,
+        "sha256": "10eb7221a7c2166337a804bdea1d39f66ec380fe4636abcf14c277059278a68b"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/ICN-ID",
+        "size": 8,
+        "sha256": "5cd4f4c67b1d60298e638f08124958646fde8eac1d640de7fd7ff50237394b14"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.save",
+        "size": 292232,
+        "sha256": "f48ed96cfdb4be883febe489439a250eb73d01a7ccb7ff04a2c38b70005867cd"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.save-backup",
+        "size": 292232,
+        "sha256": "f48ed96cfdb4be883febe489439a250eb73d01a7ccb7ff04a2c38b70005867cd"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.USR-DATA",
+        "size": 292268,
+        "sha256": "0c7c72d7bc70cee1bd2def593f6dd88214c3095db264bcc9040639947d577e96"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/10.USR-DATA",
+        "size": 292268,
+        "sha256": "5b8a459aaa7b39b34dd0b8f18285477e94f81086b5ca28f7da5ba94968106310"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/12.USR-DATA",
+        "size": 53696,
+        "sha256": "00f2f7253e3e40847c93d53f10f1f0bc89c34eae49e6761c52e99b9cd1317d29"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/7.save",
+        "size": 292232,
+        "sha256": "5af42e883afacbd95e713daf30b786adb8e225a040f56d8688a5209a54a25cea"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/7.save-backup",
+        "size": 292232,
+        "sha256": "5af42e883afacbd95e713daf30b786adb8e225a040f56d8688a5209a54a25cea"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/7.USR-DATA",
+        "size": 292268,
+        "sha256": "0b7a0c66ce4abe7e719523112f97ba4b3070b6f803b9f204cc861eadc7c77e9e"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/9.save",
+        "size": 292232,
+        "sha256": "ed2ff87062b693403a4a9828e14574025eefe67adcad862784137b224c9b375e"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/9.save-backup",
+        "size": 292232,
+        "sha256": "ed2ff87062b693403a4a9828e14574025eefe67adcad862784137b224c9b375e"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/9.USR-DATA",
+        "size": 292268,
+        "sha256": "6969c5771be937fde3f5df850469205e763c56842d22ae162f4478f5052cf660"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/P.save",
+        "size": 53660,
+        "sha256": "b2f4e2b9cd103791b346c62a9798ebedcb08ed21a88b66ae593a64e6c8013e5f"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/P.save-backup",
+        "size": 53660,
+        "sha256": "b2f4e2b9cd103791b346c62a9798ebedcb08ed21a88b66ae593a64e6c8013e5f"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/W.save",
+        "size": 292232,
+        "sha256": "f8dc5431c330dba4265c117c79386720bbff738cac6b075ec31bfbe57b5acc1a"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/W.save-backup",
+        "size": 292232,
+        "sha256": "f8dc5431c330dba4265c117c79386720bbff738cac6b075ec31bfbe57b5acc1a"
+      }
+    ]
+  },
+  "description": "关联成就：记笔记。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+  "contributor": {
+    "id": 284279708,
+    "login": "dxydjl0521-maker"
+  },
+  "submittedAt": "2026-11-07T14:19:31.123Z",
+  "agreement": "community-save-public-fork-v1",
+  "package": {
+    "repository": "dxydjl0521-maker/achievement-engine-saves",
+    "releaseId": 437621866,
+    "assetId": 720908431,
+    "tag": "submission-fc1ff60b-a933-4145-8053-c32d22d6ca3d",
+    "name": "fc1ff60b-a933-4145-8053-c32d22d6ca3d.aesave"
+  }
+}
