@@ -1,0 +1,146 @@
+{
+  "automaticCapture": {
+    "schemaVersion": 1,
+    "captureTrigger": "file-change",
+    "packageSha256": "ae43bd2ec75a084bb527f6225c0005f40326454d3c8bfb0c18aa43aa11607e6d",
+    "contentFingerprint": "32635a32367e57dd62c6b87e72930bde9eab98a918a025eb9a5affa374a7b4da",
+    "capturedAtUtc": "2026-11-03T15:09:49.169Z"
+  },
+  "schemaVersion": 1,
+  "id": "17af3ff8-8908-4cf9-90f1-df82b4ea37c0",
+  "resourceId": "5701aefb-7887-48b9-9490-520808eaa484",
+  "versionId": "b8c3553b-7e98-4d3f-baee-a372b59eb3ee",
+  "packageSha256": "ae43bd2ec75a084bb527f6225c0005f40326454d3c8bfb0c18aa43aa11607e6d",
+  "bytes": 1920517,
+  "manifest": {
+    "format": "aesave",
+    "schemaVersion": 1,
+    "resourceId": null,
+    "game": {
+      "platform": "steam",
+      "platformGameId": "1659420"
+    },
+    "save": {
+      "title": "UNCHARTED™: Legacy of Thieves Collection · 第一桶金",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "capturedAtUtc": "2026-11-03T15:09:49.169Z",
+      "contentFingerprint": "32635a32367e57dd62c6b87e72930bde9eab98a918a025eb9a5affa374a7b4da"
+    },
+    "compatibility": {
+      "gameBuild": null,
+      "dlcIds": [],
+      "saveSlot": null,
+      "accountPortability": "unknown"
+    },
+    "achievements": [
+      {
+        "platformAchievementId": "TROPHY_NAME_TREASURE_1",
+        "relation": "candidate"
+      }
+    ],
+    "achievementTiming": [
+      {
+        "achievementId": "TROPHY_NAME_TREASURE_1",
+        "capturedAtUtc": "2026-11-03T15:09:49.169Z",
+        "unlockedAtUtc": "2026-11-03T15:10:27.000Z",
+        "unlockTimeSource": "platform",
+        "offsetMs": 37831
+      }
+    ],
+    "roots": [
+      {
+        "id": "root-0",
+        "label": "存档目录 1"
+      }
+    ],
+    "files": [
+      {
+        "root": "root-0",
+        "path": "sharedsettings.cfg",
+        "size": 53,
+        "sha256": "1f92e1e78314a37ea9bc0eccfb24b81ec802c3b4702100d7530fc86a189e5daa"
+      },
+      {
+        "root": "root-0",
+        "path": "steam_autocloud.vdf",
+        "size": 53,
+        "sha256": "10eb7221a7c2166337a804bdea1d39f66ec380fe4636abcf14c277059278a68b"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/ICN-ID",
+        "size": 8,
+        "sha256": "5cd4f4c67b1d60298e638f08124958646fde8eac1d640de7fd7ff50237394b14"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.save",
+        "size": 292232,
+        "sha256": "f48ed96cfdb4be883febe489439a250eb73d01a7ccb7ff04a2c38b70005867cd"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.save-backup",
+        "size": 292232,
+        "sha256": "f48ed96cfdb4be883febe489439a250eb73d01a7ccb7ff04a2c38b70005867cd"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.USR-DATA",
+        "size": 292268,
+        "sha256": "0c7c72d7bc70cee1bd2def593f6dd88214c3095db264bcc9040639947d577e96"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/10.USR-DATA",
+        "size": 292268,
+        "sha256": "55e3e41ffb67b4fe417b66555ebf36d8b1f3850bdde7f633929ddac45fc9f6af"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/12.USR-DATA",
+        "size": 53696,
+        "sha256": "a8c6344ba8dda7e0b329bb5d26d543cebbc835653bfe12bf93465ebf6492617a"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/P.save",
+        "size": 53660,
+        "sha256": "db5a68334224b54db0fadde2361b4405ab368dc5976401872cc4977a555d099d"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/P.save-backup",
+        "size": 53660,
+        "sha256": "db5a68334224b54db0fadde2361b4405ab368dc5976401872cc4977a555d099d"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/W.save",
+        "size": 292232,
+        "sha256": "51ce31af84ceea5f9df06085934f49bb0d09490969ee3cd01836b082464923e4"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/W.save-backup",
+        "size": 292232,
+        "sha256": "51ce31af84ceea5f9df06085934f49bb0d09490969ee3cd01836b082464923e4"
+      }
+    ]
+  },
+  "description": "关联成就：第一桶金。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+  "contributor": {
+    "id": 284279708,
+    "login": "dxydjl0521-maker"
+  },
+  "submittedAt": "2026-11-07T14:19:08.818Z",
+  "agreement": "community-save-public-fork-v1",
+  "package": {
+    "repository": "dxydjl0521-maker/achievement-engine-saves",
+    "releaseId": 437621654,
+    "assetId": 720907691,
+    "tag": "submission-17af3ff8-8908-4cf9-90f1-df82b4ea37c0",
+    "name": "17af3ff8-8908-4cf9-90f1-df82b4ea37c0.aesave"
+  }
+}
