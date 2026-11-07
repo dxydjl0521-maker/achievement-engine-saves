@@ -259,6 +259,49 @@
       "tag": "save-e8606ac6-ff2a-4463-a1aa-50f9bfe2e346-bc73e521-e249-4252-9353-b46905bd4edb",
       "assetName": "e8606ac6-ff2a-4463-a1aa-50f9bfe2e346-bc73e521-e249-4252-9353-b46905bd4edb.aesave",
       "status": "published"
+    },
+    {
+      "id": "2d2dcdb9-29f2-45a3-9f45-b8563cb44a8c",
+      "versionId": "2c66a8ab-9eab-41af-a91d-533e05ddcadb",
+      "gameKey": "steam:1659420",
+      "title": "UNCHARTED™: Legacy of Thieves Collection · 从这里能看得到我家！",
+      "description": "关联成就：从这里能看得到我家！。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "achievements": [
+        "TROPHY_NAME_TOP_CLOCKTOWER_CITY"
+      ],
+      "compatibility": {
+        "gameBuild": null,
+        "dlcIds": [],
+        "saveSlot": null,
+        "accountPortability": "unknown"
+      },
+      "contributor": {
+        "id": 284279708,
+        "login": "dxydjl0521-maker"
+      },
+      "verification": "file_verified",
+      "achievementEvidence": {},
+      "achievementTiming": [
+        {
+          "achievementId": "TROPHY_NAME_TOP_CLOCKTOWER_CITY",
+          "capturedAtUtc": "2026-11-05T15:26:41.126Z",
+          "unlockedAtUtc": "2026-11-05T15:36:43.000Z",
+          "unlockTimeSource": "platform",
+          "offsetMs": 601874
+        }
+      ],
+      "packageSha256": "648d8b50603009d341da77a7679e664e534824ef26c4f47cc2607ed5a3543c80",
+      "contentFingerprint": "70f697b16708fcfa70188505d564f55884ce0e0fb7c21a4b30bc3ef710815ce9",
+      "bytes": 4554437,
+      "fileCount": 21,
+      "publishedAt": "2026-11-07T14:26:36.000Z",
+      "repository": "dxydjl0521-maker/achievement-engine-saves",
+      "assetId": 720926818,
+      "tag": "save-2d2dcdb9-29f2-45a3-9f45-b8563cb44a8c-2c66a8ab-9eab-41af-a91d-533e05ddcadb",
+      "assetName": "2d2dcdb9-29f2-45a3-9f45-b8563cb44a8c-2c66a8ab-9eab-41af-a91d-533e05ddcadb.aesave",
+      "status": "published"
     }
   ]
 }
