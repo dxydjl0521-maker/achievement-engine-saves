@@ -1,0 +1,200 @@
+{
+  "automaticCapture": {
+    "schemaVersion": 1,
+    "captureTrigger": "file-change",
+    "packageSha256": "8d1d5d7ef119e2fe02b197546a03d0a1274f20f6b726c25e78d2713e501ae774",
+    "contentFingerprint": "f974f036c07d1624b38714b91721c42e30da3dfdc0d037e993b4cc3517a9409b",
+    "capturedAtUtc": "2026-11-05T16:50:43.044Z"
+  },
+  "schemaVersion": 1,
+  "id": "33d7f498-234f-47fe-b73e-0c336149a11a",
+  "resourceId": "082d372a-aa85-4d44-bf92-2e640aec8a31",
+  "versionId": "a9ca0b3a-0cfa-497d-98e8-80c17661f627",
+  "packageSha256": "8d1d5d7ef119e2fe02b197546a03d0a1274f20f6b726c25e78d2713e501ae774",
+  "bytes": 4554415,
+  "manifest": {
+    "format": "aesave",
+    "schemaVersion": 1,
+    "resourceId": null,
+    "game": {
+      "platform": "steam",
+      "platformGameId": "1659420"
+    },
+    "save": {
+      "title": "UNCHARTED™: Legacy of Thieves Collection · 马可·波罗回来了！",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "capturedAtUtc": "2026-11-05T16:50:43.044Z",
+      "contentFingerprint": "f974f036c07d1624b38714b91721c42e30da3dfdc0d037e993b4cc3517a9409b"
+    },
+    "compatibility": {
+      "gameBuild": null,
+      "dlcIds": [],
+      "saveSlot": null,
+      "accountPortability": "unknown"
+    },
+    "achievements": [
+      {
+        "platformAchievementId": "TROPHY_NAME_MARCO_POLO",
+        "relation": "candidate"
+      }
+    ],
+    "achievementTiming": [
+      {
+        "achievementId": "TROPHY_NAME_MARCO_POLO",
+        "capturedAtUtc": "2026-11-05T16:50:43.044Z",
+        "unlockedAtUtc": "2026-11-05T17:02:05.000Z",
+        "unlockTimeSource": "platform",
+        "offsetMs": 681956
+      }
+    ],
+    "roots": [
+      {
+        "id": "root-0",
+        "label": "存档目录 1"
+      }
+    ],
+    "files": [
+      {
+        "root": "root-0",
+        "path": "sharedsettings.cfg",
+        "size": 53,
+        "sha256": "1f92e1e78314a37ea9bc0eccfb24b81ec802c3b4702100d7530fc86a189e5daa"
+      },
+      {
+        "root": "root-0",
+        "path": "steam_autocloud.vdf",
+        "size": 53,
+        "sha256": "10eb7221a7c2166337a804bdea1d39f66ec380fe4636abcf14c277059278a68b"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/ICN-ID",
+        "size": 8,
+        "sha256": "5cd4f4c67b1d60298e638f08124958646fde8eac1d640de7fd7ff50237394b14"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.save",
+        "size": 292232,
+        "sha256": "00571e2971cf20bf06331e29c1ac272ad9c4682576d558db9770f6344674d3ba"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.save-backup",
+        "size": 292232,
+        "sha256": "00571e2971cf20bf06331e29c1ac272ad9c4682576d558db9770f6344674d3ba"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.USR-DATA",
+        "size": 292268,
+        "sha256": "59f35dfa9e0245a496e9728b704fe9d0787ba1bd85da0abc76fad00544b894b4"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/10.USR-DATA",
+        "size": 292268,
+        "sha256": "18f0ac2a598df2f01837b8cd2dfac21f712108bc9809b2bfa84548cd417f74bf"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/12.USR-DATA",
+        "size": 53696,
+        "sha256": "61ae6cc6b6f32f8548eae69e71f3a870e45917df2fda2abf5380d3fb6ff4b8a3"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/7.save",
+        "size": 292232,
+        "sha256": "5af42e883afacbd95e713daf30b786adb8e225a040f56d8688a5209a54a25cea"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/7.save-backup",
+        "size": 292232,
+        "sha256": "5af42e883afacbd95e713daf30b786adb8e225a040f56d8688a5209a54a25cea"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/7.USR-DATA",
+        "size": 292268,
+        "sha256": "0b7a0c66ce4abe7e719523112f97ba4b3070b6f803b9f204cc861eadc7c77e9e"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/8.save",
+        "size": 292232,
+        "sha256": "e2446beeb40fb14e18247f1c658d201dc15be7f9280f4bdfc928ec5bf1c70296"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/8.save-backup",
+        "size": 292232,
+        "sha256": "e2446beeb40fb14e18247f1c658d201dc15be7f9280f4bdfc928ec5bf1c70296"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/8.USR-DATA",
+        "size": 292268,
+        "sha256": "8ffb14664be1255c821988dc9adabba590b4749f622ac74f9c3ea26086a2fbb3"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/9.save",
+        "size": 292232,
+        "sha256": "ed2ff87062b693403a4a9828e14574025eefe67adcad862784137b224c9b375e"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/9.save-backup",
+        "size": 292232,
+        "sha256": "ed2ff87062b693403a4a9828e14574025eefe67adcad862784137b224c9b375e"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/9.USR-DATA",
+        "size": 292268,
+        "sha256": "6969c5771be937fde3f5df850469205e763c56842d22ae162f4478f5052cf660"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/P.save",
+        "size": 53660,
+        "sha256": "5e7d137a21352b098c066377acbea02d45e994ba0db5b0356ce26169e754df46"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/P.save-backup",
+        "size": 53660,
+        "sha256": "5e7d137a21352b098c066377acbea02d45e994ba0db5b0356ce26169e754df46"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/W.save",
+        "size": 292232,
+        "sha256": "7f5cce4c13909ec86dba90c49b951e4a70e12a5f83a16676fdffc9d0442342e0"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/W.save-backup",
+        "size": 292232,
+        "sha256": "7f5cce4c13909ec86dba90c49b951e4a70e12a5f83a16676fdffc9d0442342e0"
+      }
+    ]
+  },
+  "description": "关联成就：马可·波罗回来了！。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+  "contributor": {
+    "id": 284279708,
+    "login": "dxydjl0521-maker"
+  },
+  "submittedAt": "2026-11-07T14:20:33.360Z",
+  "agreement": "community-save-public-fork-v1",
+  "package": {
+    "repository": "dxydjl0521-maker/achievement-engine-saves",
+    "releaseId": 437622383,
+    "assetId": 720911107,
+    "tag": "submission-33d7f498-234f-47fe-b73e-0c336149a11a",
+    "name": "33d7f498-234f-47fe-b73e-0c336149a11a.aesave"
+  }
+}
