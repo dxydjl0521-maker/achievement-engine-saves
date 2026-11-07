@@ -173,6 +173,49 @@
       "tag": "save-f23217f5-f3c3-4afc-8a93-35e2981a6e2d-26b54130-fab2-4c14-8ead-cd62a7a6b1f8",
       "assetName": "f23217f5-f3c3-4afc-8a93-35e2981a6e2d-26b54130-fab2-4c14-8ead-cd62a7a6b1f8.aesave",
       "status": "published"
+    },
+    {
+      "id": "e436f054-84d8-4baa-9bd4-de8802887f84",
+      "versionId": "f381991c-42ef-4b18-bede-2f4e103f2304",
+      "gameKey": "steam:1659420",
+      "title": "UNCHARTED™: Legacy of Thieves Collection · 猎头之王",
+      "description": "关联成就：猎头之王。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "achievements": [
+        "TROPHY_NAME_HEADSHOT_HIGH"
+      ],
+      "compatibility": {
+        "gameBuild": null,
+        "dlcIds": [],
+        "saveSlot": null,
+        "accountPortability": "unknown"
+      },
+      "contributor": {
+        "id": 284279708,
+        "login": "dxydjl0521-maker"
+      },
+      "verification": "file_verified",
+      "achievementEvidence": {},
+      "achievementTiming": [
+        {
+          "achievementId": "TROPHY_NAME_HEADSHOT_HIGH",
+          "capturedAtUtc": "2026-11-05T14:22:59.600Z",
+          "unlockedAtUtc": "2026-11-05T14:23:15.000Z",
+          "unlockTimeSource": "platform",
+          "offsetMs": 15400
+        }
+      ],
+      "packageSha256": "04cd6fc9512e73a6019eada1578f9cd2955d6c8efb72b0f9ab28dfb4f457006d",
+      "contentFingerprint": "b49db520e6f509b51811e777e0deaa325e7d87eb4994ac3c7c5eaa434697adcd",
+      "bytes": 4554406,
+      "fileCount": 21,
+      "publishedAt": "2026-11-07T14:24:48.000Z",
+      "repository": "dxydjl0521-maker/achievement-engine-saves",
+      "assetId": 720921832,
+      "tag": "save-e436f054-84d8-4baa-9bd4-de8802887f84-f381991c-42ef-4b18-bede-2f4e103f2304",
+      "assetName": "e436f054-84d8-4baa-9bd4-de8802887f84-f381991c-42ef-4b18-bede-2f4e103f2304.aesave",
+      "status": "published"
     }
   ]
 }
