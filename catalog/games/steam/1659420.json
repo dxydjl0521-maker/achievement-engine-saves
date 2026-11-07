@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "gameKey": "steam:1659420",
+  "resources": [
+    {
+      "id": "5701aefb-7887-48b9-9490-520808eaa484",
+      "versionId": "b8c3553b-7e98-4d3f-baee-a372b59eb3ee",
+      "gameKey": "steam:1659420",
+      "title": "UNCHARTED™: Legacy of Thieves Collection · 第一桶金",
+      "description": "关联成就：第一桶金。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "achievements": [
+        "TROPHY_NAME_TREASURE_1"
+      ],
+      "compatibility": {
+        "gameBuild": null,
+        "dlcIds": [],
+        "saveSlot": null,
+        "accountPortability": "unknown"
+      },
+      "contributor": {
+        "id": 284279708,
+        "login": "dxydjl0521-maker"
+      },
+      "verification": "file_verified",
+      "achievementEvidence": {},
+      "achievementTiming": [
+        {
+          "achievementId": "TROPHY_NAME_TREASURE_1",
+          "capturedAtUtc": "2026-11-03T15:09:49.169Z",
+          "unlockedAtUtc": "2026-11-03T15:10:27.000Z",
+          "unlockTimeSource": "platform",
+          "offsetMs": 37831
+        }
+      ],
+      "packageSha256": "ae43bd2ec75a084bb527f6225c0005f40326454d3c8bfb0c18aa43aa11607e6d",
+      "contentFingerprint": "32635a32367e57dd62c6b87e72930bde9eab98a918a025eb9a5affa374a7b4da",
+      "bytes": 1920517,
+      "fileCount": 12,
+      "publishedAt": "2026-11-07T14:20:43.000Z",
+      "repository": "dxydjl0521-maker/achievement-engine-saves",
+      "assetId": 720912099,
+      "tag": "save-5701aefb-7887-48b9-9490-520808eaa484-b8c3553b-7e98-4d3f-baee-a372b59eb3ee",
+      "assetName": "5701aefb-7887-48b9-9490-520808eaa484-b8c3553b-7e98-4d3f-baee-a372b59eb3ee.aesave",
+      "status": "published"
+    }
+  ]
+}
