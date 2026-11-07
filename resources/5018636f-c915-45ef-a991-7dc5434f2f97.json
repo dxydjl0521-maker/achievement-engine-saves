@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "5018636f-c915-45ef-a991-7dc5434f2f97",
+  "gameKey": "steam:1659420",
+  "currentVersionId": "a14a17ff-8c2f-47d0-8403-706242d71154",
+  "versions": [
+    {
+      "id": "5018636f-c915-45ef-a991-7dc5434f2f97",
+      "versionId": "a14a17ff-8c2f-47d0-8403-706242d71154",
+      "gameKey": "steam:1659420",
+      "title": "UNCHARTED™: Legacy of Thieves Collection · 宝刀未老",
+      "description": "关联成就：宝刀未老。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "achievements": [
+        "TROPHY_NAME_TOY_GUN_TARGETS"
+      ],
+      "compatibility": {
+        "gameBuild": null,
+        "dlcIds": [],
+        "saveSlot": null,
+        "accountPortability": "unknown"
+      },
+      "contributor": {
+        "id": 284279708,
+        "login": "dxydjl0521-maker"
+      },
+      "verification": "file_verified",
+      "achievementEvidence": {},
+      "achievementTiming": [
+        {
+          "achievementId": "TROPHY_NAME_TOY_GUN_TARGETS",
+          "capturedAtUtc": "2026-11-03T16:03:16.224Z",
+          "unlockedAtUtc": "2026-11-03T16:04:25.000Z",
+          "unlockTimeSource": "platform",
+          "offsetMs": 68776
+        }
+      ],
+      "packageSha256": "a0b9f1d6783272c40d277f8b2f85258aba440e351102b6509648cf7ba626748b",
+      "contentFingerprint": "4169b581f24cbaeb1eb630ecc694b2850ef183d9068d1be76a64a5d49fc47137",
+      "bytes": 1920527,
+      "fileCount": 12,
+      "publishedAt": "2026-11-07T14:28:33.000Z",
+      "repository": "dxydjl0521-maker/achievement-engine-saves",
+      "assetId": 720931075,
+      "tag": "save-5018636f-c915-45ef-a991-7dc5434f2f97-a14a17ff-8c2f-47d0-8403-706242d71154",
+      "assetName": "5018636f-c915-45ef-a991-7dc5434f2f97-a14a17ff-8c2f-47d0-8403-706242d71154.aesave",
+      "status": "published"
+    }
+  ]
+}
