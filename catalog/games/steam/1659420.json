@@ -44,6 +44,49 @@
       "tag": "save-5701aefb-7887-48b9-9490-520808eaa484-b8c3553b-7e98-4d3f-baee-a372b59eb3ee",
       "assetName": "5701aefb-7887-48b9-9490-520808eaa484-b8c3553b-7e98-4d3f-baee-a372b59eb3ee.aesave",
       "status": "published"
+    },
+    {
+      "id": "6d366d30-43d8-4270-b36a-5119ab3c376d",
+      "versionId": "af235a17-322c-4c2b-9c35-ee27b2388983",
+      "gameKey": "steam:1659420",
+      "title": "UNCHARTED™: Legacy of Thieves Collection · 匆匆记下",
+      "description": "关联成就：匆匆记下。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "achievements": [
+        "TROPHY_NAME_JOURNAL_ENTRY_1"
+      ],
+      "compatibility": {
+        "gameBuild": null,
+        "dlcIds": [],
+        "saveSlot": null,
+        "accountPortability": "unknown"
+      },
+      "contributor": {
+        "id": 284279708,
+        "login": "dxydjl0521-maker"
+      },
+      "verification": "file_verified",
+      "achievementEvidence": {},
+      "achievementTiming": [
+        {
+          "achievementId": "TROPHY_NAME_JOURNAL_ENTRY_1",
+          "capturedAtUtc": "2026-11-04T15:38:31.587Z",
+          "unlockedAtUtc": "2026-11-04T15:38:33.000Z",
+          "unlockTimeSource": "platform",
+          "offsetMs": 1413
+        }
+      ],
+      "packageSha256": "f3e7b4a7aeae20f5a3c25bde449ecdfa5bf864327ef9c0b188a6be354e3cb380",
+      "contentFingerprint": "58e31934b7475d1e18f2cf0edab1e451791f507beed24402e704f82db94dc7a9",
+      "bytes": 3676448,
+      "fileCount": 18,
+      "publishedAt": "2026-11-07T14:21:38.000Z",
+      "repository": "dxydjl0521-maker/achievement-engine-saves",
+      "assetId": 720914552,
+      "tag": "save-6d366d30-43d8-4270-b36a-5119ab3c376d-af235a17-322c-4c2b-9c35-ee27b2388983",
+      "assetName": "6d366d30-43d8-4270-b36a-5119ab3c376d-af235a17-322c-4c2b-9c35-ee27b2388983.aesave",
+      "status": "published"
     }
   ]
 }
