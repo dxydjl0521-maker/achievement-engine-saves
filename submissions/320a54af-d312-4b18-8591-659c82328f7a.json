@@ -1,0 +1,200 @@
+{
+  "automaticCapture": {
+    "schemaVersion": 1,
+    "captureTrigger": "file-change",
+    "packageSha256": "04cd6fc9512e73a6019eada1578f9cd2955d6c8efb72b0f9ab28dfb4f457006d",
+    "contentFingerprint": "b49db520e6f509b51811e777e0deaa325e7d87eb4994ac3c7c5eaa434697adcd",
+    "capturedAtUtc": "2026-11-05T14:22:59.600Z"
+  },
+  "schemaVersion": 1,
+  "id": "320a54af-d312-4b18-8591-659c82328f7a",
+  "resourceId": "e436f054-84d8-4baa-9bd4-de8802887f84",
+  "versionId": "f381991c-42ef-4b18-bede-2f4e103f2304",
+  "packageSha256": "04cd6fc9512e73a6019eada1578f9cd2955d6c8efb72b0f9ab28dfb4f457006d",
+  "bytes": 4554406,
+  "manifest": {
+    "format": "aesave",
+    "schemaVersion": 1,
+    "resourceId": null,
+    "game": {
+      "platform": "steam",
+      "platformGameId": "1659420"
+    },
+    "save": {
+      "title": "UNCHARTED™: Legacy of Thieves Collection · 猎头之王",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "capturedAtUtc": "2026-11-05T14:22:59.600Z",
+      "contentFingerprint": "b49db520e6f509b51811e777e0deaa325e7d87eb4994ac3c7c5eaa434697adcd"
+    },
+    "compatibility": {
+      "gameBuild": null,
+      "dlcIds": [],
+      "saveSlot": null,
+      "accountPortability": "unknown"
+    },
+    "achievements": [
+      {
+        "platformAchievementId": "TROPHY_NAME_HEADSHOT_HIGH",
+        "relation": "candidate"
+      }
+    ],
+    "achievementTiming": [
+      {
+        "achievementId": "TROPHY_NAME_HEADSHOT_HIGH",
+        "capturedAtUtc": "2026-11-05T14:22:59.600Z",
+        "unlockedAtUtc": "2026-11-05T14:23:15.000Z",
+        "unlockTimeSource": "platform",
+        "offsetMs": 15400
+      }
+    ],
+    "roots": [
+      {
+        "id": "root-0",
+        "label": "存档目录 1"
+      }
+    ],
+    "files": [
+      {
+        "root": "root-0",
+        "path": "sharedsettings.cfg",
+        "size": 53,
+        "sha256": "1f92e1e78314a37ea9bc0eccfb24b81ec802c3b4702100d7530fc86a189e5daa"
+      },
+      {
+        "root": "root-0",
+        "path": "steam_autocloud.vdf",
+        "size": 53,
+        "sha256": "10eb7221a7c2166337a804bdea1d39f66ec380fe4636abcf14c277059278a68b"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/ICN-ID",
+        "size": 8,
+        "sha256": "5cd4f4c67b1d60298e638f08124958646fde8eac1d640de7fd7ff50237394b14"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.save",
+        "size": 292232,
+        "sha256": "00571e2971cf20bf06331e29c1ac272ad9c4682576d558db9770f6344674d3ba"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.save-backup",
+        "size": 292232,
+        "sha256": "00571e2971cf20bf06331e29c1ac272ad9c4682576d558db9770f6344674d3ba"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.USR-DATA",
+        "size": 292268,
+        "sha256": "59f35dfa9e0245a496e9728b704fe9d0787ba1bd85da0abc76fad00544b894b4"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/10.USR-DATA",
+        "size": 292268,
+        "sha256": "1201860f2ac75980a5378914ac4be21169852460aaa970529b0266cfff8e6e7e"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/12.USR-DATA",
+        "size": 53696,
+        "sha256": "62376a30c07e0f90d0bbc05565c69a75425d5dbd0f83a44537ca37429cece81d"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/7.save",
+        "size": 292232,
+        "sha256": "5af42e883afacbd95e713daf30b786adb8e225a040f56d8688a5209a54a25cea"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/7.save-backup",
+        "size": 292232,
+        "sha256": "5af42e883afacbd95e713daf30b786adb8e225a040f56d8688a5209a54a25cea"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/7.USR-DATA",
+        "size": 292268,
+        "sha256": "0b7a0c66ce4abe7e719523112f97ba4b3070b6f803b9f204cc861eadc7c77e9e"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/8.save",
+        "size": 292232,
+        "sha256": "e2446beeb40fb14e18247f1c658d201dc15be7f9280f4bdfc928ec5bf1c70296"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/8.save-backup",
+        "size": 292232,
+        "sha256": "e2446beeb40fb14e18247f1c658d201dc15be7f9280f4bdfc928ec5bf1c70296"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/8.USR-DATA",
+        "size": 292268,
+        "sha256": "8ffb14664be1255c821988dc9adabba590b4749f622ac74f9c3ea26086a2fbb3"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/9.save",
+        "size": 292232,
+        "sha256": "ed2ff87062b693403a4a9828e14574025eefe67adcad862784137b224c9b375e"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/9.save-backup",
+        "size": 292232,
+        "sha256": "ed2ff87062b693403a4a9828e14574025eefe67adcad862784137b224c9b375e"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/9.USR-DATA",
+        "size": 292268,
+        "sha256": "6969c5771be937fde3f5df850469205e763c56842d22ae162f4478f5052cf660"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/P.save",
+        "size": 53660,
+        "sha256": "336f703f9d0d621ccbb349610e40734e557f535522768c3f5eaa19e8340c50c1"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/P.save-backup",
+        "size": 53660,
+        "sha256": "336f703f9d0d621ccbb349610e40734e557f535522768c3f5eaa19e8340c50c1"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/W.save",
+        "size": 292232,
+        "sha256": "ce7678b34cfce027eeed021628c420d7c4ed78f61604f495dbe359b20a8d5bad"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/W.save-backup",
+        "size": 292232,
+        "sha256": "ce7678b34cfce027eeed021628c420d7c4ed78f61604f495dbe359b20a8d5bad"
+      }
+    ]
+  },
+  "description": "关联成就：猎头之王。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+  "contributor": {
+    "id": 284279708,
+    "login": "dxydjl0521-maker"
+  },
+  "submittedAt": "2026-11-07T14:19:59.582Z",
+  "agreement": "community-save-public-fork-v1",
+  "package": {
+    "repository": "dxydjl0521-maker/achievement-engine-saves",
+    "releaseId": 437622112,
+    "assetId": 720909887,
+    "tag": "submission-320a54af-d312-4b18-8591-659c82328f7a",
+    "name": "320a54af-d312-4b18-8591-659c82328f7a.aesave"
+  }
+}
