@@ -1,0 +1,146 @@
+{
+  "automaticCapture": {
+    "schemaVersion": 1,
+    "captureTrigger": "file-change",
+    "packageSha256": "a0b9f1d6783272c40d277f8b2f85258aba440e351102b6509648cf7ba626748b",
+    "contentFingerprint": "4169b581f24cbaeb1eb630ecc694b2850ef183d9068d1be76a64a5d49fc47137",
+    "capturedAtUtc": "2026-11-03T16:03:16.224Z"
+  },
+  "schemaVersion": 1,
+  "id": "d86c1aba-1a3d-4159-9fe7-143ee852a18b",
+  "resourceId": "5018636f-c915-45ef-a991-7dc5434f2f97",
+  "versionId": "a14a17ff-8c2f-47d0-8403-706242d71154",
+  "packageSha256": "a0b9f1d6783272c40d277f8b2f85258aba440e351102b6509648cf7ba626748b",
+  "bytes": 1920527,
+  "manifest": {
+    "format": "aesave",
+    "schemaVersion": 1,
+    "resourceId": null,
+    "game": {
+      "platform": "steam",
+      "platformGameId": "1659420"
+    },
+    "save": {
+      "title": "UNCHARTED™: Legacy of Thieves Collection · 宝刀未老",
+      "purpose": "pre_unlock",
+      "origin": "automatic",
+      "capturedAtUtc": "2026-11-03T16:03:16.224Z",
+      "contentFingerprint": "4169b581f24cbaeb1eb630ecc694b2850ef183d9068d1be76a64a5d49fc47137"
+    },
+    "compatibility": {
+      "gameBuild": null,
+      "dlcIds": [],
+      "saveSlot": null,
+      "accountPortability": "unknown"
+    },
+    "achievements": [
+      {
+        "platformAchievementId": "TROPHY_NAME_TOY_GUN_TARGETS",
+        "relation": "candidate"
+      }
+    ],
+    "achievementTiming": [
+      {
+        "achievementId": "TROPHY_NAME_TOY_GUN_TARGETS",
+        "capturedAtUtc": "2026-11-03T16:03:16.224Z",
+        "unlockedAtUtc": "2026-11-03T16:04:25.000Z",
+        "unlockTimeSource": "platform",
+        "offsetMs": 68776
+      }
+    ],
+    "roots": [
+      {
+        "id": "root-0",
+        "label": "存档目录 1"
+      }
+    ],
+    "files": [
+      {
+        "root": "root-0",
+        "path": "sharedsettings.cfg",
+        "size": 53,
+        "sha256": "1f92e1e78314a37ea9bc0eccfb24b81ec802c3b4702100d7530fc86a189e5daa"
+      },
+      {
+        "root": "root-0",
+        "path": "steam_autocloud.vdf",
+        "size": 53,
+        "sha256": "10eb7221a7c2166337a804bdea1d39f66ec380fe4636abcf14c277059278a68b"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/ICN-ID",
+        "size": 8,
+        "sha256": "5cd4f4c67b1d60298e638f08124958646fde8eac1d640de7fd7ff50237394b14"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.save",
+        "size": 292232,
+        "sha256": "f48ed96cfdb4be883febe489439a250eb73d01a7ccb7ff04a2c38b70005867cd"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.save-backup",
+        "size": 292232,
+        "sha256": "f48ed96cfdb4be883febe489439a250eb73d01a7ccb7ff04a2c38b70005867cd"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/0.USR-DATA",
+        "size": 292268,
+        "sha256": "0c7c72d7bc70cee1bd2def593f6dd88214c3095db264bcc9040639947d577e96"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/10.USR-DATA",
+        "size": 292268,
+        "sha256": "2d08c7eaaee3d32fef88cb4873384f1a0e3a24f7538e59f8a9d5ace54ab57334"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/12.USR-DATA",
+        "size": 53696,
+        "sha256": "78feba03f9521cbf0ad4cfb70686fbdab9e13267edcba7d3d04e134bae47763a"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/P.save",
+        "size": 53660,
+        "sha256": "65510c947b18433bca1e03105da041e4ddaff0952ccb8b5e2d4525b8a414ac63"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/P.save-backup",
+        "size": 53660,
+        "sha256": "65510c947b18433bca1e03105da041e4ddaff0952ccb8b5e2d4525b8a414ac63"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/W.save",
+        "size": 292232,
+        "sha256": "694acc8264e0d351e313101c8e32b8db10a0bf80cd6fd26b485be1f722797d95"
+      },
+      {
+        "root": "root-0",
+        "path": "Uncharted4/saves/W.save-backup",
+        "size": 292232,
+        "sha256": "694acc8264e0d351e313101c8e32b8db10a0bf80cd6fd26b485be1f722797d95"
+      }
+    ]
+  },
+  "description": "关联成就：宝刀未老。\n解锁前候选存档，时间关系以本机记录为依据。\n关联不代表已验证成就复现；游戏版本、DLC、槽位和账号可移植性请使用前核对。",
+  "contributor": {
+    "id": 284279708,
+    "login": "dxydjl0521-maker"
+  },
+  "submittedAt": "2026-11-07T14:20:44.607Z",
+  "agreement": "community-save-public-fork-v1",
+  "package": {
+    "repository": "dxydjl0521-maker/achievement-engine-saves",
+    "releaseId": 437622513,
+    "assetId": 720911734,
+    "tag": "submission-d86c1aba-1a3d-4159-9fe7-143ee852a18b",
+    "name": "d86c1aba-1a3d-4159-9fe7-143ee852a18b.aesave"
+  }
+}
